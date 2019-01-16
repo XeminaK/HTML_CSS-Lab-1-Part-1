@@ -54,7 +54,15 @@ a {
     float: left;
     position: relative;
     margin-left: 20px;
+    margin-top: 50px;
+    display: inline-block;
 } 
+
+.right {
+    float: right;
+    width: 50%;
+    border: solid thin black;
+}
 .companyName {
     font-size: 2rem;
 }
@@ -67,27 +75,39 @@ a {
 }
 
 .circle1 {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     background-color: rgba(207, 130, 213, 0.6);
     float: right;
     position: relative;
     margin-right: 30px;
+    z-index: 0;
 }
 
-/*.circle2 {
-    height: 50px;
-    width: 50px;
+.circle2 {
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     background-color: rgba(247, 193, 162, 0.7);
     float: right;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 100px;
+    z-index: 1;
+
 }
 
-.circle3 {
+/*.circle3 {
     height: 50px;
     width: 50px;
     border-radius: 50%;
     background-color: rgba(247, 136, 167, 0.6);
     float:right;
 } */
+
+.bottom {
+    position: absolute;
+    margin-top: 500px;
+    left: 600px;
+}
