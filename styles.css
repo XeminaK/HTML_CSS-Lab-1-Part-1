@@ -35,13 +35,19 @@ a {
     padding: 10px;
     border-radius: 25px;
     width: 100px;
+    display: inline-block;
+    text-align: center;
+
 }
 
 .button2 {
     color: #f9fafc;
     background-color: #000;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 25px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
 }
 
 .left {
@@ -60,4 +66,28 @@ a {
     width: 50%;
 }
 
-.circle1 {}
+.circle1 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgba(207, 130, 213, 0.6);
+    float: right;
+    position: relative;
+    margin-right: 30px;
+}
+
+/*.circle2 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(247, 193, 162, 0.7);
+    float: right;
+}
+
+.circle3 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(247, 136, 167, 0.6);
+    float:right;
+} */
