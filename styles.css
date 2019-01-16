@@ -15,7 +15,6 @@ html {
     margin-top: 20px;
 }
 
-
 .company {
     color: #000;
 }
@@ -44,3 +43,18 @@ a {
     border-radius: 15px;
 }
 
+/* .left {
+    float: left;
+} */
+.companyName {
+    font-size: 2rem;
+}
+
+.companyInfo {
+    border-left: solid #69696a;
+    border-left-width: 2px;
+    padding-left: 20px;
+    width: 50%;
+}
+
+.circle1 {}
