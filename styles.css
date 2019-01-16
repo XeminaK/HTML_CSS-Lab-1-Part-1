@@ -5,13 +5,14 @@ html {
 
 .header {
     display: inline-block;
+    margin-left: 20px; 
 } 
 
 .top {
     /*you do not need the display: inline-block since you are using float: right*/
     position: relative;
     float: right;
-    margin-right: 20px;
+    margin-right: 30px;
     margin-top: 20px;
 }
 
@@ -43,9 +44,11 @@ a {
     border-radius: 15px;
 }
 
-/* .left {
+.left {
     float: left;
-} */
+    position: relative;
+    margin-left: 20px;
+} 
 .companyName {
     font-size: 2rem;
 }
